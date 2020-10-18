@@ -23,7 +23,7 @@ def print_number(n=5):
 def load_timeseries(ric, file_extension='csv'):
     # get market data
     # remember to modify the path to match your own directory
-    path = 'C:\\Users\Meva\\.spyder-py3\\data\\' + ric + '.' + file_extension
+    path = 'C:\\Users\\ale\\OneDrive\\Documentos\\Noveno Semestre 21-1\\Seminario de finanzas\\data\\' + ric + '.' + file_extension
     if file_extension == 'csv':
         table_raw = pd.read_csv(path) # default csv
     else:

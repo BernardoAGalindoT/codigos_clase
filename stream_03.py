@@ -19,7 +19,7 @@ ric = '^VIX' # DBK.DE ^IXIC MXN=X ^STOXX ^S&P500 ^VIX
 
 # get market data
 # remember to modify the path to match your own directory
-path = 'C:\\Users\Meva\\.spyder-py3\\data\\' + ric + '.csv' 
+path = 'C:\\Users\\ale\\OneDrive\\Documentos\\Noveno Semestre 21-1\\Seminario de finanzas\\data\\' + ric + '.csv' 
 table_raw = pd.read_csv(path)
 
 # create table of returns
